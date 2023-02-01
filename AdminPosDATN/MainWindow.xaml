@@ -1,0 +1,79 @@
+﻿<mah:MetroWindow
+        x:Class="AdminPosDATN.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdminPosDATN"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        WindowTitleBrush="#FF8522BD"
+    TitleCharacterCasing="Normal"
+        Title="Main" Height="600" Width="1024" ResizeMode="CanResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="4*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="5*"/>
+            </Grid.RowDefinitions>
+            <Grid.Effect>
+                <DropShadowEffect BlurRadius="20" Color="#FFDEDEDE" RenderingBias="Quality" ShadowDepth="1"/>
+            </Grid.Effect>
+            <Grid>
+                
+            </Grid>
+            <StackPanel Grid.Row="1">
+                <Button x:Name="btnLoaiMon" Click="btnLoaiMon_Click" Margin="10" Background="#FF8522BD" Foreground="White">
+                    <Grid>
+                        <TextBlock HorizontalAlignment="Center" Text="LOẠI MÓN" FontSize="14"/>
+                    </Grid>
+                </Button>
+                <Button x:Name="btnMon" Click="btnMon_Click" Margin="10" Background="#FF8522BD" Foreground="White">
+                    <Grid>
+                        <TextBlock HorizontalAlignment="Center" Text="MÓN" FontSize="14"/>
+                    </Grid>
+                </Button>
+                <Button x:Name="btnNhanvien" Click="btnNhanvien_Click" Margin="10" Background="#FF8522BD" Foreground="White">
+                    <Grid>
+                        <TextBlock HorizontalAlignment="Center" Text="NHÂN VIÊN" FontSize="14"/>
+                    </Grid>
+                </Button>
+                <Button x:Name="btnCuahang" Click="btnCuahang_Click" Margin="10" Background="#FF8522BD" Foreground="White">
+                    <Grid>
+                        <TextBlock HorizontalAlignment="Center" Text="CỬA HÀNG" FontSize="14"/>
+                    </Grid>
+                </Button>
+                <Button x:Name="btnKhachhang" Click="btnKhachhang_Click" Margin="10" Background="#FF8522BD" Foreground="White">
+                    <Grid>
+                        <TextBlock HorizontalAlignment="Center" Text="KHÁCH HÀNG" FontSize="14"/>
+                    </Grid>
+                </Button>
+                <Button x:Name="btnHoaDon" Click="btnHoaDon_Click" Margin="10" Background="#FF8522BD" Foreground="White">
+                    <Grid>
+                        <TextBlock HorizontalAlignment="Center" Text="HÓA ĐƠN" FontSize="14"/>
+                    </Grid>
+                </Button>
+                <Button x:Name="btnCoupon" Click="btnCoupon_Click" Margin="10" Background="#FF8522BD" Foreground="White">
+                    <Grid>
+                        <TextBlock HorizontalAlignment="Center" Text="COUPON" FontSize="14"/>
+                    </Grid>
+                </Button>
+                <Button x:Name="btnThongKe" Click="btnThongKe_Click" Margin="10" Background="#FF8522BD" Foreground="White">
+                    <Grid>
+                        <TextBlock HorizontalAlignment="Center" Text="THỐNG KÊ" FontSize="14"/>
+                    </Grid>
+                </Button>
+            </StackPanel>
+        </Grid>
+        <Frame Grid.Column="1" x:Name="Main" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</mah:MetroWindow>

@@ -1,0 +1,46 @@
+﻿<Page x:Class="AdminPosDATN.Pages.PageKhachhang.PageKhachhang"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AdminPosDATN"
+      mc:Ignorable="d" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      Background="WhiteSmoke"
+      d:DesignHeight="600" d:DesignWidth="819.2"
+      Title="PageNhanvien">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="7*"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="1" x:Name="btnDS" Click="btnDS_Click"  Margin="20" Background="#FF8522BD" Foreground="white" >
+                <Grid>
+                    <TextBlock HorizontalAlignment="Center" Text="DANH SÁCH" FontSize="14"/>
+                </Grid>
+            </Button>
+            <Button Grid.Column="2" x:Name="btnThem" Click="btnThem_Click"  Margin="20" Background="#FF8522BD" Foreground="white" >
+                <Grid>
+                    <TextBlock HorizontalAlignment="Center" Text="THÊM" FontSize="14" Height="19" VerticalAlignment="Top"/>
+                </Grid>
+            </Button>
+
+
+
+        </Grid>
+        <Frame Grid.Row="1" x:Name="Main" NavigationUIVisibility="Hidden"/>
+
+
+
+
+    </Grid>
+</Page>
+
+

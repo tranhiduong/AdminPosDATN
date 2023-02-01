@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Pages\PageCoupon\PageCoupon.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PageCoupon\PageCouponDS.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PageCoupon\PageCouponThemSua.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PageCuahang\PageCuahang.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PageCuahang\PageCuahangDS.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PageCuahang\PageCuahangThemSua.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PageHoadon\PageHoadon.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PageHoadon\PageHoadonDS.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PageKhachhang\PageKhachhang.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PageKhachhang\PageKhachhangDS.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PageKhachhang\PageKhachhangThemSua.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PageLoaimon\PageLoaimon.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PageLoaimon\PageLoaimonDS.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PageLoaimon\PageLoaimonThemSua.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PageMon\PageMon.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PageMon\PageMonDS.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PageMon\PageMonThemSua.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PageNhanvien\PageNhanvien.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PageNhanvien\PageNhanvienDS.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PageNhanvien\PageNhanvienThemSua.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PageThongke\PageThongke.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowDangnhap.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PageCoupon\PageCoupon.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PageCoupon\PageCouponDS.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PageCoupon\PageCouponThemSua.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PageCuahang\PageCuahang.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PageCuahang\PageCuahangDS.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PageCuahang\PageCuahangThemSua.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PageHoadon\PageHoadon.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PageHoadon\PageHoadonDS.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PageKhachhang\PageKhachhang.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PageKhachhang\PageKhachhangDS.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PageKhachhang\PageKhachhangThemSua.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PageLoaimon\PageLoaimon.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PageLoaimon\PageLoaimonDS.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PageLoaimon\PageLoaimonThemSua.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PageMon\PageMon.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PageMon\PageMonDS.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PageMon\PageMonThemSua.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PageNhanvien\PageNhanvien.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PageNhanvien\PageNhanvienDS.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PageNhanvien\PageNhanvienThemSua.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PageThongke\PageThongke.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowDangnhap.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
